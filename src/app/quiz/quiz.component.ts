@@ -15,11 +15,14 @@ export class QuizComponent implements OnInit {
   quiz: Quiz = new Quiz(null);
   mode = 'quiz';
   quizName: string;
+  totalScore: number;
+  lastQuestion: boolean;
+ 
   config: QuizConfig = {
     'allowBack': true,
     'allowReview': true,
-    'autoMove': false,  // if true, it will move to next question automatically when answered.
-    'duration': 20,  // indicates the time (in secs) in which quiz needs to be completed. 0 means unlimited.
+    'autoMove': true,  // if true, it will move to next question automatically when answered.
+    'duration': 0,  // indicates the time (in secs) in which quiz needs to be completed. 0 means unlimited.
     'pageSize': 1,
     'requiredAll': false,  // indicates if you must answer all the questions before submitting.
     'richText': false,
@@ -63,7 +66,7 @@ export class QuizComponent implements OnInit {
   tick() {
     const now = new Date();
     const diff = (now.getTime() - this.startTime.getTime()) / 1000;
-    if (diff >= this.config.duration) {
+    if ((this.config.duration != 0) && (diff >= this.config.duration)) {
       this.onSubmit();
     }
     this.ellapsedTime = this.parseTime(diff);
@@ -84,11 +87,22 @@ export class QuizComponent implements OnInit {
 
   onSelect(question: Question, option: Option) {
     if (question.questionTypeId === 1) {
-      question.options.forEach((x) => { if (x.id !== option.id) x.selected = false; });
+      question.options.forEach(
+        
+        (x) => { 
+        
+        if (x.id !== option.id) x.selected = false;
+        if (x.id == option.id) question.score = x.optionScore; 
+        
+        }
+      
+      );
+      
     }
 
     if (this.config.autoMove) {
-      this.goTo(this.pager.index + 1);
+      this.pager.index ++;
+      this.goTo(this.pager.index);
     }
   }
 
@@ -96,6 +110,11 @@ export class QuizComponent implements OnInit {
     if (index >= 0 && index < this.pager.count) {
       this.pager.index = index;
       this.mode = 'quiz';
+    }
+    
+    if(index == (this.pager.count)){
+      this.lastQuestion = true;
+      this.mode = 'lastPage';
     }
   }
 
@@ -111,8 +130,29 @@ export class QuizComponent implements OnInit {
     let answers = [];
     this.quiz.questions.forEach(x => answers.push({ 'quizId': this.quiz.id, 'questionId': x.id, 'answered': x.answered }));
 
-    // Post your data to the server here. answers contains the questionId and the users' answer.
-    console.log(this.quiz.questions);
+    this.totalScore = this.calculateScore();
+
     this.mode = 'result';
+
+    // Post your data to the server here. answers contains the questionId and the users' answer.
+    // console.log(this.quiz.questions);
+    
+    
   }
+
+  calculateScore() {
+    let finalScores: number[] = [];
+    let sumup: number = 0;
+    this.quiz.questions.forEach(x => finalScores.push(x.score));
+    
+    console.log(finalScores);
+
+    for (var i = 0; i < finalScores.length; i++) {
+      sumup += finalScores[i];
+    }
+    
+    return sumup;
+  }
+
+  
 }
