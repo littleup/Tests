@@ -1,0 +1,15 @@
+[0927/202719.362:WARNING:minidump_to_upload_parameters.cc(66)] duplicate annotation name plat, discarding value Win64
+[0927/202719.362:WARNING:minidump_to_upload_parameters.cc(66)] duplicate annotation name prod, discarding value OperaDesktop
+[0927/202719.362:WARNING:minidump_to_upload_parameters.cc(66)] duplicate annotation name ver, discarding value 55.0.2994.61
+[0927/202719.362:WARNING:minidump_to_upload_parameters.cc(66)] duplicate annotation name channel, discarding value Stable
+[0927/202719.362:WARNING:minidump_to_upload_parameters.cc(66)] duplicate annotation name ptype, discarding value renderer
+[0927/202723.066:WARNING:minidump_to_upload_parameters.cc(66)] duplicate annotation name plat, discarding value Win64
+[0927/202723.066:WARNING:minidump_to_upload_parameters.cc(66)] duplicate annotation name prod, discarding value OperaDesktop
+[0927/202723.066:WARNING:minidump_to_upload_parameters.cc(66)] duplicate annotation name ver, discarding value 55.0.2994.61
+[0927/202723.066:WARNING:minidump_to_upload_parameters.cc(66)] duplicate annotation name channel, discarding value Stable
+[0927/202723.066:WARNING:minidump_to_upload_parameters.cc(66)] duplicate annotation name ptype, discarding value renderer
+[0927/202759.094:WARNING:minidump_to_upload_parameters.cc(66)] duplicate annotation name plat, discarding value Win64
+[0927/202759.094:WARNING:minidump_to_upload_parameters.cc(66)] duplicate annotation name prod, discarding value OperaDesktop
+[0927/202759.094:WARNING:minidump_to_upload_parameters.cc(66)] duplicate annotation name ver, discarding value 55.0.2994.61
+[0927/202759.094:WARNING:minidump_to_upload_parameters.cc(66)] duplicate annotation name channel, discarding value Stable
+[0927/202759.094:WARNING:minidump_to_upload_parameters.cc(66)] duplicate annotation name ptype, discarding value renderer

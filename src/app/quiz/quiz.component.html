@@ -1,19 +1,22 @@
-<div class="row">
+<div class="row" >
   <div class="col-6">
-    <h3>Quiz Application</h3>
+    <h3>Anxiety & Mood Tests</h3>
   </div>
   <div class="col-6 text-right">
-    Select Quiz:
+    Select a Test:
     <select [(ngModel)]="quizName" (change)="loadQuiz(quizName)">
       <option *ngFor="let quiz of quizes" [value]="quiz.id">{{quiz.name}}</option>
     </select>
   </div>
 </div>
-<div id="quiz">
-  <h2 class="text-center font-weight-normal">{{quiz.name}}</h2>
-  <hr />
 
-  <div *ngIf="mode=='quiz' && quiz">
+<h2 class="text-center font-weight-normal">{{quiz.name}}</h2>
+<hr />
+
+<div id="quiz">
+  
+  <div *ngIf="mode=='quiz'">
+      
     <div *ngFor="let question of filteredQuestions;">
       <div class="badge badge-info">Question {{pager.index + 1}} of {{pager.count}}.</div>
       <div *ngIf="config.duration" class="badge badge-info float-right">Time: {{ellapsedTime}} / {{duration}}</div>
@@ -30,6 +33,7 @@
         </div>
       </div>
     </div>
+
     <hr />
     <div class="text-center">
       <!--<button class="btn btn-default" *ngIf="config.allowBack" (click)="goTo(0);">First</button>-->
@@ -47,7 +51,7 @@
   </div>
   
   <div class="result" *ngIf="mode=='result'">
-    <h2>Quiz Result</h2>
+    <h2>Test Result</h2>
     <div *ngFor="let question of quiz.questions; let index = index">
       <div class="result-question">
         <h5>{{index + 1}}. {{question.name}}</h5>
