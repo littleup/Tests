@@ -106,7 +106,7 @@ export class QuizComponent implements OnInit {
       this.goTo(this.pager.index);
     }
 
-    this.enableSelected();
+    this.enableSelected(question);
   }
 
   goTo(index: number) {
@@ -127,9 +127,14 @@ export class QuizComponent implements OnInit {
     return question.options.find(x => x.selected) ? "Answered" : "Not Answered";
   }
 
-  enableSelected() {
+  enableSelected(question: Question) {
+    if(question.options.find(x => x.selected)){
+      this.selected = true;
+    }else{
+      this.selected = false;
+    }
     // console.log("toggle selected called");
-    this.selected = true;
+    // this.selected = true;
   }
 
   disableSelected() {
@@ -157,6 +162,8 @@ export class QuizComponent implements OnInit {
 
     this.mode = "result";
 
+    
+
     // Post your data to the server here. answers contains the questionId and the users' answer.
     // console.log(this.quiz.questions);
   }
@@ -166,7 +173,7 @@ export class QuizComponent implements OnInit {
     let sumup: number = 0;
     this.quiz.questions.forEach(x => finalScores.push(x.score));
 
-    console.log(finalScores);
+    //console.log(finalScores);
 
     for (var i = 0; i < finalScores.length; i++) {
       sumup += finalScores[i];
@@ -174,4 +181,9 @@ export class QuizComponent implements OnInit {
 
     return sumup;
   }
+
+  printResult(){
+    window.print();
+  }
+
 }
