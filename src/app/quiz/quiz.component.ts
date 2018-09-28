@@ -106,7 +106,7 @@ export class QuizComponent implements OnInit {
       this.goTo(this.pager.index);
     }
 
-    this.toggleSelected();
+    this.enableSelected();
   }
 
   goTo(index: number) {
@@ -120,16 +120,21 @@ export class QuizComponent implements OnInit {
       this.mode = "lastPage";
     }
 
-    this.toggleSelected();
+    this.disableSelected();
   }
 
   isAnswered(question: Question) {
     return question.options.find(x => x.selected) ? "Answered" : "Not Answered";
   }
 
-  toggleSelected() {
+  enableSelected() {
     // console.log("toggle selected called");
-    this.selected = !(this.selected);
+    this.selected = true;
+  }
+
+  disableSelected() {
+    // console.log("toggle selected called");
+    this.selected = false;
   }
 
   isCorrect(question: Question) {
