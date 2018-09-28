@@ -73,7 +73,7 @@
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "I feel my future is hopeless and will only get worse",
+                    "name": "I feel my future is hopeless and will only get worse.",
                     "isAnswer": false,
                     "optionScore": 3
                 }
@@ -92,7 +92,7 @@
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "I do not fee like a failure.",
+                    "name": "I do not feel like a failure.",
                     "isAnswer": false,
                     "optionScore": 0
                 },
@@ -179,7 +179,7 @@
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "I feel guilty over many things I have doen or should have done.",
+                    "name": "I feel guilty over many things I have done or should have done.",
                     "isAnswer": true,
                     "optionScore": 1
                 },
@@ -452,7 +452,7 @@
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "I have not lost interest in other people of activities.",
+                    "name": "I have not lost interest in other people or activities.",
                     "isAnswer": false,
                     "optionScore": 0
                 },
@@ -466,7 +466,7 @@
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "I have lost most of my interest in other people of things.",
+                    "name": "I have lost most of my interest in other people or things.",
                     "isAnswer": false,
                     "optionScore": 2
                 },
@@ -513,7 +513,7 @@
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "I have trouble making any decisions.",
+                    "name": "I have trouble making any decision.",
                     "isAnswer": false,
                     "optionScore": 3
                 }
@@ -539,7 +539,7 @@
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "I I don't consider myself as worthwhile and useful as I used to.",
+                    "name": "I don't consider myself as worthwhile and useful as I used to.",
                     "isAnswer": true,
                     "optionScore": 1
                 },
@@ -808,7 +808,7 @@
         },
         {
             "id": 1029,
-            "name": "Tiredness of Fatigue",
+            "name": "Tiredness or Fatigue",
             "questionTypeId": 1,
             "options": [
                 {
@@ -835,7 +835,7 @@
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "I too tired or fatigued to do most of the things I used to do.",
+                    "name": "I am too tired or fatigued to do most of the things I used to do.",
                     "isAnswer": false,
                     "optionScore": 3
                 }

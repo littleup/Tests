@@ -18,7 +18,6 @@ export class QuizComponent implements OnInit {
   totalScore: number;
   lastQuestion: boolean;
   selected: boolean = false;
- 
 
   config: QuizConfig = {
     allowBack: true,
@@ -128,9 +127,9 @@ export class QuizComponent implements OnInit {
   }
 
   enableSelected(question: Question) {
-    if(question.options.find(x => x.selected)){
+    if (question.options.find(x => x.selected)) {
       this.selected = true;
-    }else{
+    } else {
       this.selected = false;
     }
     // console.log("toggle selected called");
@@ -162,8 +161,6 @@ export class QuizComponent implements OnInit {
 
     this.mode = "result";
 
-    
-
     // Post your data to the server here. answers contains the questionId and the users' answer.
     // console.log(this.quiz.questions);
   }
@@ -182,8 +179,7 @@ export class QuizComponent implements OnInit {
     return sumup;
   }
 
-  printResult(){
+  printResult() {
     window.print();
   }
-
 }
