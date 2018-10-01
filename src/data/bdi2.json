@@ -3,7 +3,7 @@
     "name": "BDI-2 Test",
     "description": "This questionnaire consists of 21 groups of statements. Plase read each group of statements carefully, and then pick out the <strong>one statement</strong> in each group that best describes the way you have been feeling during the <strong>past two weeks, including today</strong>. Circle the number beside the statement you have picked. If several statements in the group seem to apply equally well, circile the highest number for that group.",
     "questions": [
-        
+
         {
             "id": 1010,
             "name": "Sadness",
@@ -52,7 +52,7 @@
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "I am not discouraged about my futue.",
+                    "name": "I am not discouraged about my future.",
                     "isAnswer": false,
                     "optionScore": 0
                 },
