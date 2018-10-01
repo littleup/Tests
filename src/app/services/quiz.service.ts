@@ -15,8 +15,8 @@ export class QuizService {
   getAll() {
     return [
       { id: 'data/bdi2.json', name: 'BDI-2 TEST' },
-      //{ id: 'data/csharp.json', name: 'C Sharp' },
-      //{ id: 'data/designPatterns.json', name: 'Design Patterns' }
+      { id: 'data/bai.json', name: 'BAI TEST' }
+      // { id: 'data/designPatterns.json', name: 'Design Patterns' }
     ];
   }
 

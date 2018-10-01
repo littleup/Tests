@@ -1,0 +1,847 @@
+{
+  "id": 2,
+  "name": "BAI Test",
+  "description": "Below is a list of common symptoms of anxiety. Please carefully read each item in the list. Indicate how much you have been bothered by that symptom during the past month, including today, by circling the number in the corresponding space in the column next to each symptom.",
+  "questions": [
+    {
+      "id": 1010,
+      "name": "Numbness or tingling",
+      "questionTypeId": 1,
+      "options": [
+        {
+          "id": 1055,
+          "questionId": 1010,
+          "name": "Not at all",
+          "isAnswer": false,
+          "optionScore": 0
+        },
+        {
+          "id": 1056,
+          "questionId": 1010,
+          "name": "Mildly but it didn't bother me much",
+          "isAnswer": true,
+          "optionScore": 1
+        },
+        {
+          "id": 1057,
+          "questionId": 1010,
+          "name": "Moderately - it wasn't pleasant at times",
+          "isAnswer": false,
+          "optionScore": 2
+        },
+        {
+          "id": 1058,
+          "questionId": 1010,
+          "name": "Severely - it bothered me a lot",
+          "isAnswer": false,
+          "optionScore": 3
+        }
+      ],
+      "questionType": {
+        "id": 1,
+        "name": "Multiple Choice",
+        "isActive": true
+      }
+    },
+    {
+      "id": 1011,
+      "name": "Feeling hot",
+      "questionTypeId": 1,
+      "options": [
+        {
+          "id": 1055,
+          "questionId": 1010,
+          "name": "Not at all",
+          "isAnswer": false,
+          "optionScore": 0
+        },
+        {
+          "id": 1056,
+          "questionId": 1010,
+          "name": "Mildly but it didn't bother me much",
+          "isAnswer": true,
+          "optionScore": 1
+        },
+        {
+          "id": 1057,
+          "questionId": 1010,
+          "name": "Moderately - it wasn't pleasant at times",
+          "isAnswer": false,
+          "optionScore": 2
+        },
+        {
+          "id": 1058,
+          "questionId": 1010,
+          "name": "Severely - it bothered me a lot",
+          "isAnswer": false,
+          "optionScore": 3
+        }
+      ],
+      "questionType": {
+        "id": 1,
+        "name": "Multiple Choice",
+        "isActive": true
+      }
+    },
+    {
+      "id": 1012,
+      "name": "Wobbliness in legs",
+      "questionTypeId": 1,
+      "options": [
+        {
+          "id": 1055,
+          "questionId": 1010,
+          "name": "Not at all",
+          "isAnswer": false,
+          "optionScore": 0
+        },
+        {
+          "id": 1056,
+          "questionId": 1010,
+          "name": "Mildly but it didn't bother me much",
+          "isAnswer": true,
+          "optionScore": 1
+        },
+        {
+          "id": 1057,
+          "questionId": 1010,
+          "name": "Moderately - it wasn't pleasant at times",
+          "isAnswer": false,
+          "optionScore": 2
+        },
+        {
+          "id": 1058,
+          "questionId": 1010,
+          "name": "Severely - it bothered me a lot",
+          "isAnswer": false,
+          "optionScore": 3
+        }
+      ],
+      "questionType": {
+        "id": 1,
+        "name": "Multiple Choice",
+        "isActive": true
+      }
+    },
+    {
+      "id": 1013,
+      "name": "Unable to relax",
+      "questionTypeId": 1,
+      "options": [
+        {
+          "id": 1055,
+          "questionId": 1010,
+          "name": "Not at all",
+          "isAnswer": false,
+          "optionScore": 0
+        },
+        {
+          "id": 1056,
+          "questionId": 1010,
+          "name": "Mildly but it didn't bother me much",
+          "isAnswer": true,
+          "optionScore": 1
+        },
+        {
+          "id": 1057,
+          "questionId": 1010,
+          "name": "Moderately - it wasn't pleasant at times",
+          "isAnswer": false,
+          "optionScore": 2
+        },
+        {
+          "id": 1058,
+          "questionId": 1010,
+          "name": "Severely - it bothered me a lot",
+          "isAnswer": false,
+          "optionScore": 3
+        }
+      ],
+      "questionType": {
+        "id": 1,
+        "name": "Multiple Choice",
+        "isActive": true
+      }
+    },
+    {
+      "id": 1014,
+      "name": "Fear of worst happening",
+      "questionTypeId": 1,
+      "options": [
+        {
+          "id": 1055,
+          "questionId": 1010,
+          "name": "Not at all",
+          "isAnswer": false,
+          "optionScore": 0
+        },
+        {
+          "id": 1056,
+          "questionId": 1010,
+          "name": "Mildly but it didn't bother me much",
+          "isAnswer": true,
+          "optionScore": 1
+        },
+        {
+          "id": 1057,
+          "questionId": 1010,
+          "name": "Moderately - it wasn't pleasant at times",
+          "isAnswer": false,
+          "optionScore": 2
+        },
+        {
+          "id": 1058,
+          "questionId": 1010,
+          "name": "Severely - it bothered me a lot",
+          "isAnswer": false,
+          "optionScore": 3
+        }
+      ],
+      "questionType": {
+        "id": 1,
+        "name": "Multiple Choice",
+        "isActive": true
+      }
+    },
+    {
+      "id": 1015,
+      "name": "Dizzy or lightheaded",
+      "questionTypeId": 1,
+      "options": [
+        {
+          "id": 1055,
+          "questionId": 1010,
+          "name": "Not at all",
+          "isAnswer": false,
+          "optionScore": 0
+        },
+        {
+          "id": 1056,
+          "questionId": 1010,
+          "name": "Mildly but it didn't bother me much",
+          "isAnswer": true,
+          "optionScore": 1
+        },
+        {
+          "id": 1057,
+          "questionId": 1010,
+          "name": "Moderately - it wasn't pleasant at times",
+          "isAnswer": false,
+          "optionScore": 2
+        },
+        {
+          "id": 1058,
+          "questionId": 1010,
+          "name": "Severely - it bothered me a lot",
+          "isAnswer": false,
+          "optionScore": 3
+        }
+      ],
+      "questionType": {
+        "id": 1,
+        "name": "Multiple Choice",
+        "isActive": true
+      }
+    },
+    {
+      "id": 1016,
+      "name": "Heart pounding/racing",
+      "questionTypeId": 1,
+      "options": [
+        {
+          "id": 1055,
+          "questionId": 1010,
+          "name": "Not at all",
+          "isAnswer": false,
+          "optionScore": 0
+        },
+        {
+          "id": 1056,
+          "questionId": 1010,
+          "name": "Mildly but it didn't bother me much",
+          "isAnswer": true,
+          "optionScore": 1
+        },
+        {
+          "id": 1057,
+          "questionId": 1010,
+          "name": "Moderately - it wasn't pleasant at times",
+          "isAnswer": false,
+          "optionScore": 2
+        },
+        {
+          "id": 1058,
+          "questionId": 1010,
+          "name": "Severely - it bothered me a lot",
+          "isAnswer": false,
+          "optionScore": 3
+        }
+      ],
+      "questionType": {
+        "id": 1,
+        "name": "Multiple Choice",
+        "isActive": true
+      }
+    },
+    {
+      "id": 1017,
+      "name": "Unsteady",
+      "questionTypeId": 1,
+      "options": [
+        {
+          "id": 1055,
+          "questionId": 1010,
+          "name": "Not at all",
+          "isAnswer": false,
+          "optionScore": 0
+        },
+        {
+          "id": 1056,
+          "questionId": 1010,
+          "name": "Mildly but it didn't bother me much",
+          "isAnswer": true,
+          "optionScore": 1
+        },
+        {
+          "id": 1057,
+          "questionId": 1010,
+          "name": "Moderately - it wasn't pleasant at times",
+          "isAnswer": false,
+          "optionScore": 2
+        },
+        {
+          "id": 1058,
+          "questionId": 1010,
+          "name": "Severely - it bothered me a lot",
+          "isAnswer": false,
+          "optionScore": 3
+        }
+      ],
+      "questionType": {
+        "id": 1,
+        "name": "Multiple Choice",
+        "isActive": true
+      }
+    },
+    {
+      "id": 1018,
+      "name": "Terrified or afraid",
+      "questionTypeId": 1,
+      "options": [
+        {
+          "id": 1055,
+          "questionId": 1010,
+          "name": "Not at all",
+          "isAnswer": false,
+          "optionScore": 0
+        },
+        {
+          "id": 1056,
+          "questionId": 1010,
+          "name": "Mildly but it didn't bother me much",
+          "isAnswer": true,
+          "optionScore": 1
+        },
+        {
+          "id": 1057,
+          "questionId": 1010,
+          "name": "Moderately - it wasn't pleasant at times",
+          "isAnswer": false,
+          "optionScore": 2
+        },
+        {
+          "id": 1058,
+          "questionId": 1010,
+          "name": "Severely - it bothered me a lot",
+          "isAnswer": false,
+          "optionScore": 3
+        }
+      ],
+      "questionType": {
+        "id": 1,
+        "name": "Multiple Choice",
+        "isActive": true
+      }
+    },
+    {
+      "id": 1019,
+      "name": "Nervous",
+      "questionTypeId": 1,
+      "options": [
+        {
+          "id": 1055,
+          "questionId": 1010,
+          "name": "Not at all",
+          "isAnswer": false,
+          "optionScore": 0
+        },
+        {
+          "id": 1056,
+          "questionId": 1010,
+          "name": "Mildly but it didn't bother me much",
+          "isAnswer": true,
+          "optionScore": 1
+        },
+        {
+          "id": 1057,
+          "questionId": 1010,
+          "name": "Moderately - it wasn't pleasant at times",
+          "isAnswer": false,
+          "optionScore": 2
+        },
+        {
+          "id": 1058,
+          "questionId": 1010,
+          "name": "Severely - it bothered me a lot",
+          "isAnswer": false,
+          "optionScore": 3
+        }
+      ],
+      "questionType": {
+        "id": 1,
+        "name": "Multiple Choice",
+        "isActive": true
+      }
+    },
+    {
+      "id": 1020,
+      "name": "Feeling of choking",
+      "questionTypeId": 1,
+      "options": [
+        {
+          "id": 1055,
+          "questionId": 1010,
+          "name": "Not at all",
+          "isAnswer": false,
+          "optionScore": 0
+        },
+        {
+          "id": 1056,
+          "questionId": 1010,
+          "name": "Mildly but it didn't bother me much",
+          "isAnswer": true,
+          "optionScore": 1
+        },
+        {
+          "id": 1057,
+          "questionId": 1010,
+          "name": "Moderately - it wasn't pleasant at times",
+          "isAnswer": false,
+          "optionScore": 2
+        },
+        {
+          "id": 1058,
+          "questionId": 1010,
+          "name": "Severely - it bothered me a lot",
+          "isAnswer": false,
+          "optionScore": 3
+        }
+      ],
+      "questionType": {
+        "id": 1,
+        "name": "Multiple Choice",
+        "isActive": true
+      }
+    },
+    {
+      "id": 1021,
+      "name": "Hands trembling",
+      "questionTypeId": 1,
+      "options": [
+        {
+          "id": 1055,
+          "questionId": 1010,
+          "name": "Not at all",
+          "isAnswer": false,
+          "optionScore": 0
+        },
+        {
+          "id": 1056,
+          "questionId": 1010,
+          "name": "Mildly but it didn't bother me much",
+          "isAnswer": true,
+          "optionScore": 1
+        },
+        {
+          "id": 1057,
+          "questionId": 1010,
+          "name": "Moderately - it wasn't pleasant at times",
+          "isAnswer": false,
+          "optionScore": 2
+        },
+        {
+          "id": 1058,
+          "questionId": 1010,
+          "name": "Severely - it bothered me a lot",
+          "isAnswer": false,
+          "optionScore": 3
+        }
+      ],
+      "questionType": {
+        "id": 1,
+        "name": "Multiple Choice",
+        "isActive": true
+      }
+    },
+    {
+      "id": 1022,
+      "name": "Shaky/Unsteady",
+      "questionTypeId": 1,
+      "options": [
+        {
+          "id": 1055,
+          "questionId": 1010,
+          "name": "Not at all",
+          "isAnswer": false,
+          "optionScore": 0
+        },
+        {
+          "id": 1056,
+          "questionId": 1010,
+          "name": "Mildly but it didn't bother me much",
+          "isAnswer": true,
+          "optionScore": 1
+        },
+        {
+          "id": 1057,
+          "questionId": 1010,
+          "name": "Moderately - it wasn't pleasant at times",
+          "isAnswer": false,
+          "optionScore": 2
+        },
+        {
+          "id": 1058,
+          "questionId": 1010,
+          "name": "Severely - it bothered me a lot",
+          "isAnswer": false,
+          "optionScore": 3
+        }
+      ],
+      "questionType": {
+        "id": 1,
+        "name": "Multiple Choice",
+        "isActive": true
+      }
+    },
+    {
+      "id": 1023,
+      "name": "Fear of losing control",
+      "questionTypeId": 1,
+      "options": [
+        {
+          "id": 1055,
+          "questionId": 1010,
+          "name": "Not at all",
+          "isAnswer": false,
+          "optionScore": 0
+        },
+        {
+          "id": 1056,
+          "questionId": 1010,
+          "name": "Mildly but it didn't bother me much",
+          "isAnswer": true,
+          "optionScore": 1
+        },
+        {
+          "id": 1057,
+          "questionId": 1010,
+          "name": "Moderately - it wasn't pleasant at times",
+          "isAnswer": false,
+          "optionScore": 2
+        },
+        {
+          "id": 1058,
+          "questionId": 1010,
+          "name": "Severely - it bothered me a lot",
+          "isAnswer": false,
+          "optionScore": 3
+        }
+      ],
+      "questionType": {
+        "id": 1,
+        "name": "Multiple Choice",
+        "isActive": true
+      }
+    },
+    {
+      "id": 1024,
+      "name": "Difficulty in breathing",
+      "questionTypeId": 1,
+      "options": [
+        {
+          "id": 1055,
+          "questionId": 1010,
+          "name": "Not at all",
+          "isAnswer": false,
+          "optionScore": 0
+        },
+        {
+          "id": 1056,
+          "questionId": 1010,
+          "name": "Mildly but it didn't bother me much",
+          "isAnswer": true,
+          "optionScore": 1
+        },
+        {
+          "id": 1057,
+          "questionId": 1010,
+          "name": "Moderately - it wasn't pleasant at times",
+          "isAnswer": false,
+          "optionScore": 2
+        },
+        {
+          "id": 1058,
+          "questionId": 1010,
+          "name": "Severely - it bothered me a lot",
+          "isAnswer": false,
+          "optionScore": 3
+        }
+      ],
+      "questionType": {
+        "id": 1,
+        "name": "Multiple Choice",
+        "isActive": true
+      }
+    },
+    {
+      "id": 1025,
+      "name": "Fear of dying",
+      "questionTypeId": 1,
+      "options": [
+        {
+          "id": 1055,
+          "questionId": 1010,
+          "name": "Not at all",
+          "isAnswer": false,
+          "optionScore": 0
+        },
+        {
+          "id": 1056,
+          "questionId": 1010,
+          "name": "Mildly but it didn't bother me much",
+          "isAnswer": true,
+          "optionScore": 1
+        },
+        {
+          "id": 1057,
+          "questionId": 1010,
+          "name": "Moderately - it wasn't pleasant at times",
+          "isAnswer": false,
+          "optionScore": 2
+        },
+        {
+          "id": 1058,
+          "questionId": 1010,
+          "name": "Severely - it bothered me a lot",
+          "isAnswer": false,
+          "optionScore": 3
+        }
+      ],
+      "questionType": {
+        "id": 1,
+        "name": "Multiple Choice",
+        "isActive": true
+      }
+    },
+    {
+      "id": 1026,
+      "name": "Scared",
+      "questionTypeId": 1,
+      "options": [
+        {
+          "id": 1055,
+          "questionId": 1010,
+          "name": "Not at all",
+          "isAnswer": false,
+          "optionScore": 0
+        },
+        {
+          "id": 1056,
+          "questionId": 1010,
+          "name": "Mildly but it didn't bother me much",
+          "isAnswer": true,
+          "optionScore": 1
+        },
+        {
+          "id": 1057,
+          "questionId": 1010,
+          "name": "Moderately - it wasn't pleasant at times",
+          "isAnswer": false,
+          "optionScore": 2
+        },
+        {
+          "id": 1058,
+          "questionId": 1010,
+          "name": "Severely - it bothered me a lot",
+          "isAnswer": false,
+          "optionScore": 3
+        }
+      ],
+      "questionType": {
+        "id": 1,
+        "name": "Multiple Choice",
+        "isActive": true
+      }
+    },
+    {
+      "id": 1027,
+      "name": "Indigestion",
+      "questionTypeId": 1,
+      "options": [
+        {
+          "id": 1055,
+          "questionId": 1010,
+          "name": "Not at all",
+          "isAnswer": false,
+          "optionScore": 0
+        },
+        {
+          "id": 1056,
+          "questionId": 1010,
+          "name": "Mildly but it didn't bother me much",
+          "isAnswer": true,
+          "optionScore": 1
+        },
+        {
+          "id": 1057,
+          "questionId": 1010,
+          "name": "Moderately - it wasn't pleasant at times",
+          "isAnswer": false,
+          "optionScore": 2
+        },
+        {
+          "id": 1058,
+          "questionId": 1010,
+          "name": "Severely - it bothered me a lot",
+          "isAnswer": false,
+          "optionScore": 3
+        }
+      ],
+      "questionType": {
+        "id": 1,
+        "name": "Multiple Choice",
+        "isActive": true
+      }
+    },
+    {
+      "id": 1028,
+      "name": "Faint/Lightheaded",
+      "questionTypeId": 1,
+      "options": [
+        {
+          "id": 1055,
+          "questionId": 1010,
+          "name": "Not at all",
+          "isAnswer": false,
+          "optionScore": 0
+        },
+        {
+          "id": 1056,
+          "questionId": 1010,
+          "name": "Mildly but it didn't bother me much",
+          "isAnswer": true,
+          "optionScore": 1
+        },
+        {
+          "id": 1057,
+          "questionId": 1010,
+          "name": "Moderately - it wasn't pleasant at times",
+          "isAnswer": false,
+          "optionScore": 2
+        },
+        {
+          "id": 1058,
+          "questionId": 1010,
+          "name": "Severely - it bothered me a lot",
+          "isAnswer": false,
+          "optionScore": 3
+        }
+      ],
+      "questionType": {
+        "id": 1,
+        "name": "Multiple Choice",
+        "isActive": true
+      }
+    },
+    {
+      "id": 1029,
+      "name": "Face flushed",
+      "questionTypeId": 1,
+      "options": [
+        {
+          "id": 1055,
+          "questionId": 1010,
+          "name": "Not at all",
+          "isAnswer": false,
+          "optionScore": 0
+        },
+        {
+          "id": 1056,
+          "questionId": 1010,
+          "name": "Mildly but it didn't bother me much",
+          "isAnswer": true,
+          "optionScore": 1
+        },
+        {
+          "id": 1057,
+          "questionId": 1010,
+          "name": "Moderately - it wasn't pleasant at times",
+          "isAnswer": false,
+          "optionScore": 2
+        },
+        {
+          "id": 1058,
+          "questionId": 1010,
+          "name": "Severely - it bothered me a lot",
+          "isAnswer": false,
+          "optionScore": 3
+        }
+      ],
+      "questionType": {
+        "id": 1,
+        "name": "Multiple Choice",
+        "isActive": true
+      }
+    },
+    {
+      "id": 1030,
+      "name": "Hot/cold sweats",
+      "questionTypeId": 1,
+      "options": [
+        {
+          "id": 1055,
+          "questionId": 1010,
+          "name": "Not at all",
+          "isAnswer": false,
+          "optionScore": 0
+        },
+        {
+          "id": 1056,
+          "questionId": 1010,
+          "name": "Mildly but it didn't bother me much",
+          "isAnswer": true,
+          "optionScore": 1
+        },
+        {
+          "id": 1057,
+          "questionId": 1010,
+          "name": "Moderately - it wasn't pleasant at times",
+          "isAnswer": false,
+          "optionScore": 2
+        },
+        {
+          "id": 1058,
+          "questionId": 1010,
+          "name": "Severely - it bothered me a lot",
+          "isAnswer": false,
+          "optionScore": 3
+        }
+      ],
+      "questionType": {
+        "id": 1,
+        "name": "Multiple Choice",
+        "isActive": true
+      }
+    }
+  ]
+}
